@@ -26,6 +26,8 @@ To setup Nix on Ubuntu read [this](https://www.domenkozar.com/2014/01/02/getting
 To build with Nix:
 
 ```bash
+git clone https://github.com/cessationoftime/n6.git
+cd n6
 # Activate your Nix profile
 source ~/.nix-profile/etc/profile.d/nix.sh
 # and build
