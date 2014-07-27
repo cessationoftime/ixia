@@ -33,6 +33,6 @@ source ~/.nix-profile/etc/profile.d/nix.sh
 # Update Nix expressions
 nix-channel --update
 # and build
-
+nix-build
 ```
 
