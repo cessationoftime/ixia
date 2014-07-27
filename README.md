@@ -32,6 +32,8 @@ cd n6
 source ~/.nix-profile/etc/profile.d/nix.sh
 # Update Nix expressions
 nix-channel --update
+#update packages of user profile from downloaded Nix expressions
+nix-env -u '*'
 # and build
 nix-build
 ```
