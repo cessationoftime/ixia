@@ -5,5 +5,30 @@ Haskell IDE, with Nix as the primary build method. And Reactive-Banana-WX GUI. W
 
 ---
 
-This project will require a contributor license agreement (CLA) to be signed before I will merge pull requests.  But you are not required to sign this to fork/modify the code on your own.
+Pull requests: This project will require a contributor license agreement (CLA) to be signed before I will merge pull requests.  But you are not required to sign this to fork/modify the code on your own.
+
+---
+
+To build with cabal alone:
+
+```bash
+git clone https://github.com/cessationoftime/n6.git
+cd n6
+cabal sandbox init
+cabal configure
+cabal build
+cabal run
+```
+
+To setup Nix on Ubuntu read [this](https://www.domenkozar.com/2014/01/02/getting-started-with-nix-package-manager/).
+
+
+To build with Nix:
+
+```bash
+# Activate your Nix profile
+source ~/.nix-profile/etc/profile.d/nix.sh
+# and build
+
+```
 
