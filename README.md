@@ -9,6 +9,9 @@ Pull requests: This project will require a contributor license agreement (CLA) t
 
 ---
 
+My notes on using Nix: https://gist.github.com/cessationoftime/96542fb32f302cd2082e
+---
+
 To build with cabal alone:
 
 ```bash
