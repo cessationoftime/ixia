@@ -30,6 +30,8 @@ git clone https://github.com/cessationoftime/n6.git
 cd n6
 # Activate your Nix profile
 source ~/.nix-profile/etc/profile.d/nix.sh
+# Update Nix expressions
+nix-channel --update
 # and build
 
 ```
