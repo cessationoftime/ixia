@@ -7,11 +7,6 @@ Haskell IDE, with Nix as the primary build method. And Reactive-Banana-WX GUI. W
 
 Pull requests: This project will require a contributor license agreement (CLA) to be signed before I will merge pull requests.  But you are not required to sign this to fork/modify the code on your own.
 
----
-
-My notes on using Nix: https://gist.github.com/cessationoftime/96542fb32f302cd2082e
-
----
 
 To build with cabal alone:
 
@@ -23,9 +18,6 @@ cabal configure
 cabal build
 cabal run
 ```
-
-To setup Nix on Ubuntu read [this](https://www.domenkozar.com/2014/01/02/getting-started-with-nix-package-manager/).
-
 
 To build with Nix:
 
@@ -41,4 +33,9 @@ nix-env -u '*'
 # and build
 nix-build
 ```
+
+Nix Info
+* Good [tutorial](http://lethalman.blogspot.it/2014/07/nix-pill-4-basics-of-language.html) on the basics of Nix expressions 
+* To setup Nix on Ubuntu/Debian read [this](http://lethalman.blogspot.com/2014/07/nix-pill-2-install-on-your-running.html) or [this](https://www.domenkozar.com/2014/01/02/getting-started-with-nix-package-manager/).
+
 
