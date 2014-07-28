@@ -1,7 +1,7 @@
 n6
 =====
 
-Haskell IDE, with Nix as the primary build method. And Reactive-Banana-WX GUI. Would like eventual D-language support.
+Haskell IDE, with Nix as the primary build method, and Reactive-Banana-WX GUI.  Will look into using cloud-haskell for async ops. Would like  D-language support in the IDE after Haskell.
 
 ---
 
