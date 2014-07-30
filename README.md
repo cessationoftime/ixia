@@ -3,6 +3,8 @@ n6
 
 Haskell IDE, with Nix as the primary build method, and Reactive-Banana-WX GUI.  Will look into using cloud-haskell for async ops. Would like  D-language support in the IDE after Haskell.
 
+
+The scion library may be useful for this. see : https://github.com/nominolo/scion
 ---
 
 Pull requests: This project will require a contributor license agreement (CLA) to be signed before I will merge pull requests.  But you are not required to sign this to fork/modify the code on your own.
