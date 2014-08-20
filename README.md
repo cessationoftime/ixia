@@ -1,7 +1,7 @@
 n6
 =====
 
-Haskell IDE, with Nix as the primary build method, and Reactive-Banana-WX GUI.  Will look into using cloud-haskell for async ops. Would like  D-language support in the IDE after Haskell.
+Haskell IDE, with Nix as the primary build method, and Reactive-Banana-WX GUI.  Will look into using cloud-haskell for async ops. Would like  Rust language support in the IDE after Haskell.
 
 
 The scion library may be useful for this project. see : https://github.com/nominolo/scion
